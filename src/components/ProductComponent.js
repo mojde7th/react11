@@ -29,7 +29,7 @@ function ProductComponent({ title, description, price, image, id }) {
               <button
                 className="btn btn-primary"
                 onClick={() => {
-                  navig(`/react12/products/${id}`);
+                  navig(`/react11/products/${id}`);
                 }}
               >
                 Buy Now
