@@ -24,20 +24,20 @@ function App() {
         },
         {
           element: <ProductsPage />,
-          path: "react11/products",
+          path: "react10/products",
         },
         {
           element: <div>Home Page</div>,
-          path: "react11/Home",
+          path: "react10/Home",
         },
         {
           element: <div></div>,
-          path: "react11",
+          path: "react10",
         },
-        { element: <div>About</div>, path: "react11/about" },
+        { element: <div>About</div>, path: "react10/about" },
         {
           element: <ProductDetail />,
-          path: "/react11/products/:productId",
+          path: "/react10/products/:productId",
         },
       ],
     },
