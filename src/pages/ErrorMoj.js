@@ -1,14 +1,31 @@
 import { Link } from "react-router-dom";
-
+import '../Error.css'
 function ErrorMoj() {
   return (
     <Link
       to={"/"}
-      className="my-20 bg-warning
-    mx-20"
+      className="block w-[100%] bg-warning
+    p-0"
     >
-      Nottttttt Found- my Custom 404
-      <button className="block mx-auto my-20 bg-success">Back to home</button>
+      <div class="flex-container">
+        <div class="text-center">
+          <h1>
+            <span class="fade-in" id="digit1">
+              4
+            </span>
+            <span class="fade-in" id="digit2">
+              0
+            </span>
+            <span class="fade-in" id="digit3">
+              4
+            </span>
+          </h1>
+          <h3 class="fadeIn">PAGE NOT FOUND</h3>
+          <button type="button" name="button">
+            Return To Home
+          </button>
+        </div>
+      </div>
     </Link>
   );
 }

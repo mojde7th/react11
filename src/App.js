@@ -11,7 +11,7 @@ function App() {
     {
       element: (
         <div className="w-[100%] relative">
-          <Navbar  />
+          <Navbar />
           <Outlet />
         </div>
       ),
@@ -24,20 +24,20 @@ function App() {
         },
         {
           element: <ProductsPage />,
-          path: "react10/products",
+          path: "react11/products",
         },
         {
           element: <div>Home Page</div>,
-          path: "react10/Home",
+          path: "react11/Home",
         },
         {
           element: <div></div>,
-          path: "react10",
+          path: "react11",
         },
-        { element: <div>About</div>, path: "react10/about" },
+        { element: <div>About</div>, path: "react11/about" },
         {
           element: <ProductDetail />,
-          path: "/react10/products/:productId",
+          path: "/react11/products/:productId",
         },
       ],
     },
